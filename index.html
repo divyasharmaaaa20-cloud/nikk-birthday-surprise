@@ -1,34 +1,124 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#210f20"><title>For Nikk ❤️</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#210f20">
+<title>For Nikk ❤️</title>
 <style>
-:root{--bg:#160b18;--plum:#2a142b;--wine:#48172c;--pink:#f2a7c4;--rose:#c85e83;--gold:#e8c27a;--cream:#fff0e9;--muted:#d8b9c8}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at top,#3b1835 0%,#1c0d20 44%,#100810 100%);color:var(--cream);font-family:Georgia,'Times New Roman',serif;line-height:1.65}
-button,a{font:inherit;cursor:pointer}.wrap{width:min(760px,100%);margin:auto;padding:20px 17px 60px}.hero{min-height:88vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:30px 12px;position:relative;overflow:hidden}
-.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.22em;font:11px Arial,sans-serif}h1{font-size:clamp(2.5rem,10vw,4.8rem);line-height:1.02;margin:18px 0 12px;color:#fff1f3;text-shadow:0 0 30px #d45e8a55}h2{font-size:clamp(1.7rem,7vw,2.4rem);line-height:1.15;margin:0 0 12px}h3{font-size:1.3rem;margin:0 0 10px}p{margin:10px 0}.script{font-style:italic;color:var(--pink)}.heart{font-size:3.5rem;filter:drop-shadow(0 0 18px #ff7eac99);animation:pulse 2s infinite}@keyframes pulse{50%{transform:scale(1.1)}}
-.btn{border:1px solid #f0b5c7aa;background:linear-gradient(135deg,#d8789e,#8d355f);color:white;text-decoration:none;padding:12px 20px;border-radius:999px;box-shadow:0 8px 25px #0005;margin:8px 4px;display:inline-block}.btn.secondary{background:#2c1730;border-color:#b783a1}
-section{margin:28px 0;padding:25px 20px;border:1px solid #d7a4bd33;border-radius:24px;background:linear-gradient(145deg,#2b152bdb,#1b0e20ee);box-shadow:0 16px 50px #0003}.section-head{text-align:center;margin-bottom:20px}.small{font:12px Arial,sans-serif;color:var(--muted);letter-spacing:.06em}
-.cake-area{text-align:center;padding:8px 0 15px}.cake{position:relative;width:170px;height:130px;margin:24px auto 10px}.cake-top{position:absolute;top:33px;left:10px;width:150px;height:38px;border-radius:50%;background:#ffe0e5;border:3px solid #c96887;z-index:2}.cake-body{position:absolute;left:10px;top:49px;width:150px;height:64px;background:repeating-linear-gradient(180deg,#e6a0b7 0 17px,#fff0e4 17px 27px);border-radius:0 0 18px 18px;border-bottom:5px solid #b45178}.cake-body:after{content:"";position:absolute;left:0;right:0;top:0;height:15px;background:#fff0e9;border-radius:0 0 50% 50%}.candle{position:absolute;z-index:4;top:0;left:81px;width:8px;height:42px;border-radius:3px;background:repeating-linear-gradient(45deg,#fff0e0 0 5px,#c85e83 5px 9px)}.flame{position:absolute;top:-19px;left:-4px;width:16px;height:21px;border-radius:50% 50% 45% 45%;background:radial-gradient(circle at 50% 70%,#fff4b0 0 22%,#ffb13f 48%,#e85d35 72%);filter:drop-shadow(0 0 10px #ffb13f);animation:flicker .7s infinite alternate}@keyframes flicker{to{transform:rotate(5deg) scale(.88)}}.cake.out .flame{display:none}
-.balloon-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.balloon-card{min-height:170px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:12px;border:1px solid #ffffff15;border-radius:18px;background:#ffffff06}.balloon{width:75px;height:92px;border-radius:50% 50% 47% 47%;border:1px solid #ffffff55;box-shadow:inset -10px -7px 16px #0002,0 0 24px #e58db633;position:relative;display:grid;place-items:center;color:#fff;font-size:1.8rem;margin:4px auto 10px;transition:transform .25s}.balloon:after{content:"";position:absolute;bottom:-8px;left:32px;border-left:6px solid transparent;border-right:6px solid transparent;border-top:10px solid currentColor}.balloon:before{content:"";position:absolute;top:92px;left:36px;width:1px;height:25px;background:#e7c4d3aa}.balloon.b1{background:linear-gradient(140deg,#f7b4d0,#a82f67);color:#d96d9a}.balloon.b2{background:linear-gradient(140deg,#f8d99d,#a65b62);color:#d3a55f}.balloon.b3{background:linear-gradient(140deg,#e0b7ff,#7b3c87);color:#b993d5}.balloon.b4{background:linear-gradient(140deg,#ff9da9,#8b244f);color:#d96084}.balloon.b5{background:linear-gradient(140deg,#efc2dd,#7d527f);color:#c18bb2}.balloon-card button{border:0;background:transparent;color:var(--pink);font:12px Arial,sans-serif;text-transform:uppercase;letter-spacing:.1em;padding:5px}.reason{display:none;font-size:14px;color:#fff0f4;margin:10px 2px 0}.balloon-card.open .reason{display:block;animation:fade .5s}.balloon-card.open .balloon{transform:translateY(-7px) scale(1.05)}@keyframes fade{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
-.photo-frame{max-width:440px;margin:18px auto 8px;padding:12px 12px 38px;background:#f8e8e3;box-shadow:0 15px 35px #0007;transform:rotate(-1deg)}.photo-frame img{display:block;width:100%;height:auto;max-height:560px;object-fit:contain;background:#1b0e20}.caption{color:#6d344c;text-align:center;font-style:italic;margin-top:10px}.letter{background:linear-gradient(150deg,#f9e8d9,#edcbd3);color:#3b1b2c;padding:22px 19px;border-radius:8px;box-shadow:0 12px 35px #0005;white-space:pre-line;font-size:16px}.letter-title{text-align:center;color:#7d294e;font-size:1.6rem;margin-bottom:14px}.songbox{text-align:center;padding:10px}.song-status{font:12px Arial,sans-serif;color:var(--muted);margin-top:8px}footer{text-align:center;color:#c9a1b5;font-size:12px;padding:22px 8px}.sparkle{position:absolute;color:#efb9cc;opacity:.55;animation:float 5s ease-in-out infinite}@keyframes float{50%{transform:translateY(-18px) rotate(15deg);opacity:1}}@media(min-width:540px){.balloon-grid{grid-template-columns:repeat(3,minmax(0,1fr))}section{padding:30px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important}}
-</style></head><body><div class="wrap">
-<header class="hero"><span class="sparkle" style="top:13%;left:12%;font-size:23px">✦</span><span class="sparkle" style="top:25%;right:10%;font-size:18px">✧</span><span class="sparkle" style="bottom:18%;left:18%;font-size:17px">✦</span><div class="eyebrow">a little piece of my heart, just for you</div><div class="heart">♥</div><h1>Happy Birthday,<br><span class="script">Nikk 😘</span></h1><p>My boyfiee ❤️ My husband ❤️</p><p class="script">Today, this little world is all yours.</p><button class="btn" onclick="document.querySelector('#cake-section').scrollIntoView({behavior:'smooth'})">Open your surprise ✨</button></header>
-<section id="cake-section"><div class="section-head"><div class="eyebrow">make a wish</div><h2>One wish, just for you 🎂</h2><p>Tap the candle when you're ready, birthday boy.</p></div><div class="cake-area"><div class="cake" id="cake"><div class="candle"><div class="flame"></div></div><div class="cake-top"></div><div class="cake-body"></div></div><button class="btn" id="blow">Blow out the candle ✨</button><p id="cake-message" class="script">Close your eyes and make a wish, Nikk.</p></div></section>
-<section id="balloons"><div class="section-head"><div class="eyebrow">five little truths</div><h2>Pop a balloon, baby 🎈</h2><p>There's something I want you to know.</p></div><div class="balloon-grid">
-<article class="balloon-card"><div class="balloon b1">♥</div><button onclick="openBalloon(this)">Tap to reveal 01</button><p class="reason">It's the most real thing I ever felt in my entire life. I love you, Nikk ❤️</p></article>
-<article class="balloon-card"><div class="balloon b2">♥</div><button onclick="openBalloon(this)">Tap to reveal 02</button><p class="reason">You are the most handsome, Sexy, Sweet, loving man in the world!! I adore you.😘</p></article>
-<article class="balloon-card"><div class="balloon b3">♥</div><button onclick="openBalloon(this)">Tap to reveal 03</button><p class="reason">Baby, I still remember when we met at railway station and I wanna replay that moment when I saw you (your eyes) for the very first time.☺️</p></article>
-<article class="balloon-card"><div class="balloon b4">♥</div><button onclick="openBalloon(this)">Tap to reveal 04</button><p class="reason">I just don't love you I'm obsessed and mad for you.❣️</p></article>
-<article class="balloon-card"><div class="balloon b5">♥</div><button onclick="openBalloon(this)">Tap to reveal 05</button><p class="reason">You're the one that made me feel most alive.🥺</p></article></div></section>
-<section id="memory"><div class="section-head"><div class="eyebrow">one memory, a thousand feelings</div><h2>That first look ❤️</h2><p>Some moments stay with us.</p></div><div class="photo-frame"><img src="nikk-photo.webp" alt="A special couple photo"><div class="caption">If I could replay one first look, it would still be yours.</div></div><p class="small" style="text-align:center">A little memory from your girl, Divya.</p></section>
-<section id="letter-section"><div class="section-head"><div class="eyebrow">one last thing</div><h2>A letter for my Nikk 💌</h2><p>Read this when you're ready.</p><button class="btn" id="open-letter">Open my letter 🖤</button></div><div id="letter" class="letter" hidden><div class="letter-title">If I Were Elena, You'd Be My Damon 🖤</div>
+:root{--pink:#f2a7c4;--gold:#e8c27a;--cream:#fff0e9;--muted:#d8b9c8}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(ellipse at top,#3b1835,#1c0d20 55%,#100810);color:var(--cream);font-family:Georgia,'Times New Roman',serif;line-height:1.65}
+button{font:inherit;cursor:pointer}
+.wrap{max-width:760px;margin:auto;padding:20px 17px 50px}
+.screen{display:none;min-height:85vh;padding:25px 10px;animation:fade .5s}
+.screen.active{display:flex;flex-direction:column;align-items:center;justify-content:center}
+.hero{text-align:center;position:relative}
+.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.2em;font:11px Arial,sans-serif;text-align:center}
+h1{font-size:clamp(2.7rem,10vw,4.8rem);line-height:1.08;margin:18px 0;color:#fff1f3;text-align:center}
+h2{font-size:clamp(1.8rem,7vw,2.5rem);line-height:1.2;text-align:center}
+p{text-align:center}
+.script{font-style:italic;color:var(--pink)}
+.heart{font-size:3.5rem;color:#ef9dbb;text-align:center;animation:pulse 2s infinite}
+@keyframes pulse{50%{transform:scale(1.1)}}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.btn{border:1px solid #f0b5c7aa;background:linear-gradient(135deg,#d8789e,#8d355f);color:white;padding:12px 20px;border-radius:999px;box-shadow:0 8px 25px #0005;margin:10px 4px}
+.btn.secondary{background:#2c1730}
+.songbox{width:100%;max-width:360px;text-align:center;padding:10px}
+.songbox iframe{width:100%;height:160px;border:0;border-radius:14px}
+.small{font:12px Arial,sans-serif;color:var(--muted)}
+section{width:100%;margin:15px 0;padding:24px 17px;border:1px solid #d7a4bd33;border-radius:24px;background:linear-gradient(145deg,#2b152bdb,#1b0e20ee);box-shadow:0 16px 50px #0003}
+.section-head{text-align:center;margin-bottom:20px}
+.cake-area{text-align:center}
+.cake{position:relative;width:170px;height:130px;margin:28px auto 10px}
+.cake-top{position:absolute;top:33px;left:10px;width:150px;height:38px;border-radius:50%;background:#ffe0e5;border:3px solid #c96887;z-index:2}
+.cake-body{position:absolute;left:10px;top:49px;width:150px;height:64px;background:repeating-linear-gradient(180deg,#e6a0b7 0 17px,#fff0e4 17px 27px);border-radius:0 0 18px 18px;border-bottom:5px solid #b45178}
+.candle{position:absolute;z-index:4;top:0;left:81px;width:8px;height:42px;border-radius:3px;background:repeating-linear-gradient(45deg,#fff0e0 0 5px,#c85e83 5px 9px);cursor:pointer}
+.flame{position:absolute;top:-19px;left:-4px;width:16px;height:21px;border-radius:50%;background:radial-gradient(circle at 50% 70%,#fff4b0 0 22%,#ffb13f 48%,#e85d35 72%);filter:drop-shadow(0 0 10px #ffb13f);animation:flicker .7s infinite alternate}
+@keyframes flicker{to{transform:rotate(5deg) scale(.88)}}
+.cake.out .flame{display:none}
+.balloon-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;width:100%}
+.balloon-card{min-height:170px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:12px;border:1px solid #ffffff15;border-radius:18px;background:#ffffff06}
+.balloon{width:75px;height:92px;border-radius:50%;display:grid;place-items:center;color:white;font-size:1.8rem;margin:4px auto 10px;background:linear-gradient(140deg,#f7b4d0,#a82f67);box-shadow:inset -10px -7px 16px #0002,0 0 24px #e58db633}
+.balloon-card:nth-child(2) .balloon{background:linear-gradient(140deg,#f8d99d,#a65b62)}
+.balloon-card:nth-child(3) .balloon{background:linear-gradient(140deg,#e0b7ff,#7b3c87)}
+.balloon-card:nth-child(4) .balloon{background:linear-gradient(140deg,#ff9da9,#8b244f)}
+.balloon-card:nth-child(5) .balloon{background:linear-gradient(140deg,#efc2dd,#7d527f)}
+.balloon-card button{border:0;background:transparent;color:var(--pink);font:12px Arial,sans-serif;text-transform:uppercase;padding:8px}
+.reason{display:none;font-size:14px;color:#fff0f4}
+.balloon-card.open .reason{display:block}
+.photo-frame{max-width:440px;margin:18px auto;padding:12px 12px 30px;background:#f8e8e3;box-shadow:0 15px 35px #0007;transform:rotate(-1deg)}
+.photo-frame img{display:block;width:100%;height:auto;max-height:560px;object-fit:contain;background:#1b0e20}
+.caption{color:#6d344c;text-align:center;font-style:italic;margin-top:10px}
+.letter{background:linear-gradient(150deg,#f9e8d9,#edcbd3);color:#3b1b2c;padding:22px 19px;border-radius:8px;box-shadow:0 12px 35px #0005;white-space:pre-line;font-size:16px;width:100%}
+.letter-title{text-align:center;color:#7d294e;font-size:1.45rem;margin-bottom:14px}
+.screen-next{text-align:center;margin-top:22px}
+.page-count{color:var(--muted);font:11px Arial,sans-serif;letter-spacing:.12em}
+footer{text-align:center;color:#c9a1b5;font-size:12px;padding:22px 8px}
+[hidden]{display:none!important}
+@media(min-width:540px){.balloon-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="screen hero active" data-screen="0">
+<div class="eyebrow">a little piece of my heart, just for you</div>
+<div class="heart">♥</div>
+<h1>Happy Birthday,<br><span class="script">Nikk 😘</span></h1>
+<p>My boyfiee ❤️ My husband ❤️</p>
+<p class="script">Today, this little world is all yours.</p>
+<p class="small">First, press play and let our song begin. 💗</p>
+<div class="songbox">
+<iframe src="https://www.youtube-nocookie.com/embed/AJtDXIazrMo?playsinline=1&amp;rel=0" title="Love Me Like You Do — Ellie Goulding" allow="autoplay; encrypted-media; picture-in-picture; web-share" allowfullscreen loading="eager" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<p class="small">Love Me Like You Do — Ellie Goulding 🎶</p>
+</div>
+<button class="btn" onclick="goToScreen(1)">Open your surprise ✨</button>
+</header>
+
+<section class="screen" data-screen="1">
+<div class="section-head">
+<div class="eyebrow">make a wish</div>
+<h2>One wish, just for you 🎂</h2>
+<p>Tap the candle when you're ready, birthday boy.</p>
+</div>
+<div class="cake-area">
+<div class="cake" id="cake">
+<div class="candle" id="candle" role="button" tabindex="0" aria-label="Blow out the candle"><div class="flame"></div></div>
+<div class="cake-top"></div><div class="cake-body"></div>
+</div>
+<button class="btn" id="blow">Blow out the candle ✨</button>
+<p id="cake-message" class="script">Close your eyes and make a wish, Nikk.</p>
+</div>
+<div class="screen-next"><div class="page-count">CHAPTER 2 OF 6</div><button class="btn" onclick="goToScreen(2)">Next surprise ❤️</button></div>
+</section>
+
+<section class="screen" data-screen="2">
+<div class="section-head"><div class="eyebrow">five little truths</div><h2>Pop a balloon, baby 🎈</h2><p>There's something I want you to know.</p></div>
+<div class="balloon-grid">
+<article class="balloon-card"><div class="balloon">♥</div><button onclick="openBalloon(this)">Tap to reveal 01</button><p class="reason">It's the most real thing I ever felt in my entire life. I love you, Nikk ❤️</p></article>
+<article class="balloon-card"><div class="balloon">♥</div><button onclick="openBalloon(this)">Tap to reveal 02</button><p class="reason">You are the most handsome, Sexy, Sweet, loving man in the world!! I adore you.😘</p></article>
+<article class="balloon-card"><div class="balloon">♥</div><button onclick="openBalloon(this)">Tap to reveal 03</button><p class="reason">Baby, I still remember when we met at railway station and I wanna replay that moment when I saw you (your eyes) for the very first time.☺️</p></article>
+<article class="balloon-card"><div class="balloon">♥</div><button onclick="openBalloon(this)">Tap to reveal 04</button><p class="reason">I just don't love you I'm obsessed and mad for you.❣️</p></article>
+<article class="balloon-card"><div class="balloon">♥</div><button onclick="openBalloon(this)">Tap to reveal 05</button><p class="reason">You're the one that made me feel most alive.🥺</p></article>
+</div>
+<div class="screen-next"><div class="page-count">CHAPTER 3 OF 6</div><button class="btn" onclick="goToScreen(3)">Next surprise ❤️</button></div>
+</section>
+
+<section class="screen" data-screen="3">
+<div class="section-head"><div class="eyebrow">one memory, a thousand feelings</div><h2>That first look ❤️</h2><p>Some moments stay with us.</p></div>
+<div class="photo-frame"><img src="nikk-photo.webp" alt="A special couple photo"><div class="caption">If I could replay one first look, it would still be yours.</div></div>
+<p class="small">A little memory from your girl, Divya.</p>
+<div class="screen-next"><div class="page-count">CHAPTER 4 OF 6</div><button class="btn" onclick="goToScreen(4)">Next surprise ❤️</button></div>
+</section>
+
+<section class="screen" data-screen="4">
+<div class="section-head"><div class="eyebrow">one last thing</div><h2>A letter for my Nikk 💌</h2><p>Read this when you're ready.</p><button class="btn" id="open-letter">Open my letter 🖤</button></div>
+<div id="letter" class="letter" hidden>
+<div class="letter-title">If I Were Elena, You'd Be My Damon 🖤</div>
 My Nikk,
-
-You know what's funny? You can spend your whole life thinking you understand love, thinking you know what you want, thinking your heart is perfectly capable of protecting itself. And then one person walks into your life, looks at you a certain way, and suddenly all your little theories about love become completely useless.
-
-That's what you did to me, baby.
 
 I still remember that railway station. I remember seeing you for the first time, especially your eyes. Sometimes I wish I could go back to that exact moment, just to experience it again—the uncertainty, the butterflies, that first look before I knew how much you would come to mean to me.
 
@@ -36,19 +126,13 @@ If I could meet you for the first time all over again, knowing how hopelessly cr
 
 And honestly? You're ridiculously handsome. It's actually unfair. Who gave you permission to look that good and then be sweet to me, too? Pick a struggle, Nikk. 😘🖤
 
-But it's not just your face, your charm, or that confidence of yours. It's the person underneath all of it. The vulnerable parts you don't always show. The loyalty, the tenderness, the little things that make you you. I love the way you make me laugh, the way you make me feel, and the way you've become such a real part of my world.
-
 Here's my confession, baby: I'm not just in love with you. I've fallen for you in a way I can't neatly explain, take back, or pretend doesn't exist. You matter to me more than my pride knows how to admit, and when I imagine the person I want beside me through all the beautiful, difficult, ordinary days of life, it's you I keep coming back to.
 
 And maybe that's the scariest thing about loving someone. You can't control it like a switch. You can't always explain why one person's voice can change your entire mood, why one look can stay in your mind for hours, or why the thought of them can make an ordinary day feel different.
 
 I just know that you're the one who has made me feel the most alive.
 
-I love your confidence, your sass, your soft side, and even that little bit of trouble you carry around with you. You can be charming, infuriating, sweet, and completely impossible—and somehow, my heart still looks at you and says, Yep. That's my person. 😂❤️
-
-I don't need our story to look like a television show. I don't need us to be perfect, and I don't expect every day to feel like a dramatic confession in the rain. I want the real thing. The laughter, the silly fights, the making up, the long conversations, the quiet moments, and the future we get to build one day at a time.
-
-So, on your birthday, I wish I could let you borrow my eyes for just a minute. Maybe then you'd understand why you're so special to me. Maybe you'd understand why that first look at the railway station is still a memory I want to replay.
+I love your confidence, your sass, your soft side, and even that little bit of trouble you carry around with you. You can be charming, sweet, and completely impossible—and somehow, my heart still looks at you and says, Yep. That's my person. 😂❤️
 
 Happy birthday, my baby. My Nikk. My boyfiee. My husband. ❤️
 
@@ -59,25 +143,70 @@ And if I had to choose all over again, with my eyes wide open and my heart knowi
 No supernatural powers required. Although, between us, you already have a pretty ridiculous effect on me. 😏🖤
 
 All my love,
-Your Divya ❤️</div></section>
-<section id="song"><div class="section-head"><div class="eyebrow">press play, if you want</div><h2>Our song 🎵</h2><p>Love Me Like You Do — Ellie Goulding</p><p class="small">Tap below to open the song on YouTube. The song plays on YouTube, not directly inside this page.</p><a class="btn" href="https://www.youtube.com/results?search_query=Ellie+Goulding+Love+Me+Like+You+Do+official+video" target="_blank" rel="noopener">Play our song 🎧</a></div></section><div style="margin:20px auto;max-width:350px;">
-  <p style="color:#f2a7c4;text-align:center;">🎶 Our Special Song</p>
-  <iframe
-    width="100%"
-    height="160"
-    src="https://www.youtube.com/embed/AJtDXIazrMo"
-    title="Love Me Like You Do"
-    frameborder="0"
-    allow="encrypted-media; picture-in-picture"
-    allowfullscreen>
-  </iframe>
+Your Divya ❤️
 </div>
-<section style="text-align:center"><div class="heart">♥</div><div class="eyebrow">always, in every universe</div><h2>Happy Birthday, my love.</h2><p class="script">I'd still choose you. Every single time.</p><p>— Your Divya ❤️</p><button class="btn" onclick="celebrate()">One more little surprise ✨</button><p id="final-message" class="script"></p></section>
-<footer>Made with love for Nikk · 27 October ❤️</footer></div>
+<div class="screen-next"><div class="page-count">CHAPTER 5 OF 6</div><button class="btn" onclick="goToScreen(5)">One last surprise ❤️</button></div>
+</section>
+
+<section class="screen" data-screen="5">
+<div class="heart">♥</div><div class="eyebrow">always, in every universe</div>
+<h2>Happy Birthday, my love.</h2>
+<p class="script">I'd still choose you. Every single time.</p>
+<p>— Your Divya ❤️</p>
+<button class="btn" onclick="celebrate()">One more little surprise ✨</button>
+<p id="final-message" class="script"></p>
+<div class="screen-next"><div class="page-count">CHAPTER 6 OF 6</div><button class="btn secondary" onclick="goToScreen(0)">Replay from the beginning ↺</button></div>
+</section>
+
+<footer>Made with love for Nikk · 27 October ❤️</footer>
+</div>
+
 <script>
-document.getElementById('blow').addEventListener('click',function(){document.getElementById('cake').classList.add('out');document.getElementById('cake-message').textContent="Wish made! Happy Birthday, my Nikk ❤️";this.textContent="Wish sent into the universe ✨";this.disabled=true;confettiBurst()});
-function openBalloon(button){const card=button.closest('.balloon-card');if(!card.classList.contains('open')){card.classList.add('open');button.textContent='Your message ❤️';card.querySelector('.balloon').textContent='♡';confettiBurst(14)}}
-document.getElementById('open-letter').addEventListener('click',function(){const letter=document.getElementById('letter');letter.hidden=!letter.hidden;this.textContent=letter.hidden?'Open my letter 🖤':'Close my letter 💌';if(!letter.hidden)letter.scrollIntoView({behavior:'smooth',block:'start'})});
-function celebrate(){document.getElementById('final-message').textContent='You are loved more than this little page could ever explain. ❤️';confettiBurst(70)}
-function confettiBurst(count=34){const colors=['#f2a7c4','#e8c27a','#fff0e9','#c85e83','#b88bd2'];for(let i=0;i<count;i++){const el=document.createElement('span');el.textContent=Math.random()>.5?'✦':'♥';el.style.cssText='position:fixed;z-index:9999;top:-20px;left:'+Math.random()*100+'vw;color:'+colors[Math.floor(Math.random()*colors.length)]+';font-size:'+(10+Math.random()*16)+'px;pointer-events:none;transition:transform 1.8s ease-in,opacity 1.8s ease-in;opacity:1';document.body.appendChild(el);requestAnimationFrame(()=>{el.style.transform='translateY('+(window.innerHeight+60)+'px) rotate('+(Math.random()*500-250)+'deg)';el.style.opacity='0'});setTimeout(()=>el.remove(),2000)}}
-</script></body></html>
+function goToScreen(n){
+ document.querySelectorAll('[data-screen]').forEach(el=>el.classList.toggle('active',Number(el.dataset.screen)===n));
+ window.scrollTo({top:0,behavior:'smooth'});
+}
+function blowOutCandle(){
+ const cake=document.getElementById('cake');
+ if(cake.classList.contains('out')) return;
+ cake.classList.add('out');
+ document.getElementById('cake-message').textContent="Wish made! Happy Birthday, my Nikk ❤️";
+ document.getElementById('blow').textContent="Wish sent into the universe ✨";
+ document.getElementById('blow').disabled=true;
+ confettiBurst();
+}
+document.getElementById('blow').addEventListener('click',blowOutCandle);
+document.getElementById('candle').addEventListener('click',blowOutCandle);
+document.getElementById('candle').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();blowOutCandle();}});
+function openBalloon(button){
+ const card=button.closest('.balloon-card');
+ if(!card.classList.contains('open')){
+  card.classList.add('open');
+  button.textContent='Your message ❤️';
+  card.querySelector('.balloon').textContent='♡';
+  confettiBurst(14);
+ }
+}
+document.getElementById('open-letter').addEventListener('click',function(){
+ const letter=document.getElementById('letter');
+ letter.hidden=!letter.hidden;
+ this.textContent=letter.hidden?'Open my letter 🖤':'Close my letter 💌';
+});
+function celebrate(){
+ document.getElementById('final-message').textContent='You are loved more than this little page could ever explain. ❤️';
+ confettiBurst(70);
+}
+function confettiBurst(count=34){
+ const colors=['#f2a7c4','#e8c27a','#fff0e9','#c85e83','#b88bd2'];
+ for(let i=0;i<count;i++){
+  const el=document.createElement('span');
+  el.textContent=Math.random()>.5?'✦':'♥';
+  el.style.cssText='position:fixed;z-index:9999;top:-20px;left:'+Math.random()*100+'vw;color:'+colors[Math.floor(Math.random()*colors.length)]+';font-size:'+(10+Math.random()*16)+'px;pointer-events:none;transition:transform 1.8s ease-in,opacity 1.8s ease-in;opacity:1';
+  document.body.appendChild(el);
+  requestAnimationFrame(()=>{el.style.transform='translateY('+(window.innerHeight+60)+'px) rotate('+(Math.random()*500-250)+'deg)';el.style.opacity='0';});
+  setTimeout(()=>el.remove(),2000);
+ }
+}
+</script>
+</body>
+</html>
